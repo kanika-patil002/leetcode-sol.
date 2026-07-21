@@ -14,7 +14,6 @@ class Solution {
                 }
             }
         }
-
         for(boolean room : visited){
             if(!room){
                 return false;
