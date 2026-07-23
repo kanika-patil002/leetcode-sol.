@@ -17,7 +17,7 @@ class Solution {
     public boolean isSymmetric(TreeNode root) {
         return traverse(root,root);
     }
-    private static boolean traverse(TreeNode root1 ,TreeNode root2){
+    public boolean traverse(TreeNode root1 ,TreeNode root2){
         if(root1 == null && root2 == null) return true ;
 
         if (root1 == null || root2 == null || root1.val != root2.val) return false;
